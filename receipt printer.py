@@ -1,7 +1,7 @@
 
 
 item = "Keyboard"
-price = 1499.50
+price =2000.50
 qty = 3
 
 total = price * qty
