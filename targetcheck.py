@@ -1,0 +1,5 @@
+sales = int(input("Sales: "))
+target = int(input("Target: "))
+print("Target achieved:", sales >= target)
+print("Double target:", sales >= 2 * target)
+print("Bonus eligible:", sales >= target and sales >= 50000)
