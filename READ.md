@@ -85,10 +85,6 @@ Replace `q1.py` with the filename you want to execute, such as `q2.py` or `q15.p
 * Iterating through lists and dictionaries.
 * Writing simple, readable Python programs.
 
-## 👩‍💻 Author
-
-**Apurva More**
-
 ## 📝 Conclusion
 
 This assignment provides practical experience with fundamental Python programming concepts through retail sales examples. It helps build a strong foundation for solving basic programming problems and developing problem-solving skills.
