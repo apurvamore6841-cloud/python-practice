@@ -1,5 +1,5 @@
 # Q4: Attendance Percentage
-# Purpose: Calculate attendance and check eligibility at 75%.
+# Calculate attendance and check eligibility at 75%.
 
 attendance = "PPAPPPAPPP"
 present = 0
@@ -20,8 +20,3 @@ print("Present Days:", present)
 print(f"Attendance: {percentage:.2f}%")
 print(result)
 
-# Explanation:
-# P means present and A means absent.
-# The loop counts each P.
-# len(attendance) gives the total number of days.
-# Attendance percentage is present days / total days * 100.

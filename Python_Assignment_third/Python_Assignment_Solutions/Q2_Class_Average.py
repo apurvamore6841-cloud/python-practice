@@ -1,7 +1,7 @@
 # Q2: Class Average
-# Purpose: Calculate class average, find the topper, and list below-average students.
+# Calculate class average, find the topper, and list below-average students.
 
-marks = {"Riya": 78, "Omkar": 64, "Sneha": 91, "Aditya": 55, "Isha": 67}
+marks = {"sonali": 64, "Apurva": 91, "riddhi": 55, "sangivani": 67}
 
 average = sum(marks.values()) / len(marks)
 topper = max(marks, key=marks.get)
@@ -13,8 +13,3 @@ for name, mark in marks.items():
     if mark < average:
         print(f"Below average: {name} - {mark}")
 
-# Explanation:
-# Dictionary stores each student's name and marks.
-# values() gets marks, sum() adds them, and len() counts students.
-# max(..., key=marks.get) finds the student with the highest marks.
-# items() provides each name-mark pair for the loop.

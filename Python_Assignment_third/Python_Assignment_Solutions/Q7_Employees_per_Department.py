@@ -1,9 +1,9 @@
 # Q7: Employees per Department
-# Purpose: Count employees in each department and group their names.
+# Count employees in each department and group their names.
 
 staff = [
-    ("Aman", "Sales"), ("Pooja", "IT"), ("Rahul", "HR"),
-    ("Neha", "IT"), ("Karan", "Sales"), ("Isha", "IT")
+    ("Aman", "Sales"), ("Purva", "IT"), ("Radha", "HR"),
+    ("samruddhi", "IT"), ("Kishori", "Sales"), ("sonu", "IT")
 ]
 
 counts = {}
@@ -16,8 +16,3 @@ for name, department in staff:
 print("Employee Counts:", counts)
 print("Department Names:", department_names)
 
-# Explanation:
-# Each tuple contains an employee name and department.
-# get(department, 0) retrieves the current count, or 0 if new.
-# setdefault(department, []) creates a list for a new department.
-# append(name) adds the employee to that department's list.

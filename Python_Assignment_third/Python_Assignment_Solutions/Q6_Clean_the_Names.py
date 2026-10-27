@@ -1,7 +1,7 @@
 # Q6: Clean the Names
 # Purpose: Remove extra spaces, standardize names, sort, and number them.
 
-names = [" aman ", "POOJA", "rahul ", "nEHA"]
+names = [" apurva ", "SONALI", "riddhi ", "nEHA"]
 clean_names = [name.strip().title() for name in names]
 clean_names.sort()
 

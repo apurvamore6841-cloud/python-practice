@@ -1,5 +1,5 @@
 # Q10: Result Card
-# Purpose: Print subject-wise results, total, percentage, and final result.
+# Print subject-wise results, total, percentage, and final result.
 
 name = input("Enter student name: ")
 marks = {"Maths": 78, "Science": 35, "English": 70, "Computer": 88}
@@ -22,9 +22,3 @@ print("Total:", total)
 print(f"Percentage: {percentage:.2f}%")
 print("Final Result:", final_result)
 
-# Explanation:
-# The loop checks each subject and prints Pass/Fail.
-# total += mark adds each subject's marks to the total.
-# all_pass becomes False if any subject has less than 40.
-# There are four subjects, each out of 100, so total/4 gives percentage.
-# The final result is PASS only if every subject is passed.

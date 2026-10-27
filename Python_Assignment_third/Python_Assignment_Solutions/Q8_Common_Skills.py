@@ -1,30 +1,24 @@
 # Q8: Common Skills
-# Purpose: Compare two candidates' skills using sets.
+# Compare two candidates' skills using sets.
 
-aman = ["python", "sql", "excel", "git"]
-pooja = ["excel", "power bi", "sql", "tableau"]
+apurva= ["python", "sql", "excel", "git"]
+sonali = ["excel", "power bi", "sql", "tableau"]
 
-a = set(aman)
-p = set(pooja)
+a = set(apurva)
+s = set(sonali)
 
-common = a & p
-only_aman = a - p
-all_skills = a | p
+common = a & s
+only_aman = a - s
+all_skills = a | s
 
 print("Common Skills:", common)
-print("Only Aman:", only_aman)
+print("Only apurva:", only_aman)
 print("All Skills:", all_skills)
 
-if len(a) > len(p):
-    print("Aman has more skills")
-elif len(p) > len(a):
-    print("Pooja has more skills")
+if len(a) > len(s):
+    print("Apurva has more skills")
+elif len(s) > len(a):
+    print("sonali has more skills")
 else:
     print("Both have equal skills")
 
-# Explanation:
-# set() creates collections of unique items.
-# & finds common skills (intersection).
-# - finds skills only in Aman’s set (difference).
-# | combines all unique skills (union).
-# len() counts skills to compare the candidates.
